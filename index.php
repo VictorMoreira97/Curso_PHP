@@ -6,8 +6,19 @@
     <title>Me Livrando da Maldição</title>
 </head>
 <body>
-    <h1>
-        Hello World!
-    </h1>
+    
+    <?php
+        echo '<p>echo:<p><br>
+        <h1>
+            Hello World!
+        </h1>';
+
+        print '<p>print:<p><br>
+        <h1>
+            Hello World!
+        </h1>';
+
+    ?>
+
 </body>
 </html>
