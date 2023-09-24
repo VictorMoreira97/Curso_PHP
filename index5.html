@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pegando dados de formulários</title>
+    <title>Interação com Formulários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+    <form action="cad.php" method="get">
 
         <label for="">Nome: </label>
-        <input type="text"> <br>
+        <input type="text" name="nome" id="idnome"> <br>
 
         <label for="">email: </label>
-        <input type="email" name="" id=""> <br>
+        <input type="email" name="email" id="idemail"> <br>
+
         <button type="submit">Enviar</button>
 
     </form>
+
 </body>
 </html>
