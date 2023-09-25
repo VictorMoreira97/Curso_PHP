@@ -15,9 +15,9 @@
         <?php 
             $numero = $_GET['numero'];
 
-            echo "O número é $numero";
-            echo "O antecessor é". ($numero-1)."\n";
-            echo "O sucessor é". ($numero+1)."\n";
+            echo "O número é $numero"."\n";
+            echo "O antecessor é ". ($numero-1)."\n";
+            echo "O sucessor é ". ($numero+1)."\n";
 
         ?>
     </main>
